@@ -170,7 +170,7 @@ The tables below show the benchmark results on the Chrome and Firefox browsers. 
 
 | Method                   |               Operations |        Result |
 | ------------------------ | -----------------------: | ------------: |
-| `isEmptyObject()`        | 78,449,016 ops/s ± 0.44% |       fastest |
+| `isObjectEmpty()`        | 78,449,016 ops/s ± 0.44% |       fastest |
 | `jQuery.isEmptyObject()` | 37,488,633 ops/s ± 0.53% | 52.21% slower |
 | `Object.keys()`          | 29,604,851 ops/s ± 1.84% | 62.26% slower |
 | `Object.values()`        |  9,144,806 ops/s ± 0.31% | 88.34% slower |
@@ -185,7 +185,7 @@ The tables below show the benchmark results on the Chrome and Firefox browsers. 
 | Method                   |               Operations |        Result |
 | ------------------------ | -----------------------: | ------------: |
 | `jQuery.isEmptyObject()` | 44,447,322 ops/s ± 1.11% |       fastest |
-| `isEmptyObject()`        | 38,838,025 ops/s ± 0.34% | 12.62% slower |
+| `isObjectEmpty()`        | 38,838,025 ops/s ± 0.34% | 12.62% slower |
 | `_.isEmpty()`            |  6,232,845 ops/s ± 0.65% | 85.98% slower |
 | `Object.keys()`          |  3,157,550 ops/s ± 0.49% | 92.90% slower |
 | `Object.values()`        |  2,663,671 ops/s ± 0.42% | 94.01% slower |
